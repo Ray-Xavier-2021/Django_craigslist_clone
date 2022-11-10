@@ -53,6 +53,8 @@ def new_search(request):
     post_title = post.find(class_='titlestring').text
     post_url = post.find('a').get('href')
 
+    print(post_url)
+
     # Check if there is a price for display if so, display if not N/A
     if post.find(class_='priceinfo'):
       post_price = post.find(class_='priceinfo').text
@@ -65,12 +67,8 @@ def new_search(request):
     # Check if there is an image for display if so, display if not alternate
     if post.find(class_='src'):
       post_image_id = post.find('img').get('src').split('/')[3].split('_3')[0]
-      print(post_image_id)
-      # print(type(post_image_id))
-      # print(type(post.find('img').get('src')))
       post_image_url = BASE_IMAGE_URL.format(post_image_id)
-      # print(type(post_image_url))
-      # print(post_image_url)
+      print(post_image_url)
     else:
       post_image_url = 'https://craigslist.org/images/peace.jpg'
   
