@@ -6,6 +6,8 @@ This project was built by me using Python and Django. It will be added to my por
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/002faf86-0db8-4d90-88af-6b849128862d/deploy-status)](https://app.netlify.com/sites/xavierslist/deploys)
 
+[![Run on Repl.it](https://replit.com/badge/github/Ray-Xavier-2021/undefined)](https://replit.com/new/github/Ray-Xavier-2021/undefined)
+
 ![django_fs_xavier_list](https://user-images.githubusercontent.com/78431899/200989485-980b2a73-2190-4ec6-b602-b377364b10ab.png)
 
 ## Technologies Used
