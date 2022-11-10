@@ -4,8 +4,7 @@ This project was built by me using Python and Django. It will be added to my por
 
 [Live Deployment]()
 
-![django_craigslist_clone]()
-
+![django_fs_xavier_list](https://user-images.githubusercontent.com/78431899/200989485-980b2a73-2190-4ec6-b602-b377364b10ab.png)
 
 ## Technologies Used
 - HTML: Templates
